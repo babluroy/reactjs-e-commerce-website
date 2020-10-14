@@ -73,7 +73,7 @@ export default class Coursecart extends Component {
                     <div className="d-flex justify-content-between">
                       <Img fixed={node.image.fixed} />
                       <h6 className="mb-0">{node.title}</h6>
-                      <h6 className="mb-0 text-success">$ {node.price}</h6>
+                      <h6 className="mb-0 text-success">{node.price}</h6>
                     </div>
                     <button
                       data-item-id={node.id}
